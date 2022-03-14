@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Expediente RH</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="En este sitio podrás Administrar Recursos Humanos en una plataforma amigable para gestionar su talento, los procesos y servicios de Nomina son fáciles de utilizar">
+<meta name="keywords" content="Recursos Humanos, Nomina, Vacaciones, Creditos, Recibos, Software, Gestion">
+<link rel="stylesheet" href="Style/estilos.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+
+   <!-- Inicio del proyecto -->
+
+    <!-- 
+        
+    OBJETIVO GENERAL 
+    1. DISEÑAR UN MODELO DE ESTRUCTURA PARA UN EXPEDIENTE DE PERSONAL
+
+    OBJETIVO ESPECIFICO
+    1. ANALISAS LAS POSIBLES SECCIONES QUE LA ESTRUCTURA DEBE CONTENER
+    2. DETERMINAR LAS SECCIONES SOBRE DATOS DEL PERSONAL
+    3. MINIMIZAR LOS PROCESOS PARA QUE EL PERSONAL OBTENGA LA INFORMACION DE FORMA INMEDIATA o AGIl
+
+    -->
+
+<!-- Sidebar with image -->
+<nav class="sidebar hide-medium hide-small" style="width:40%">
+  <div class="bgimg animate__animated animate__slideInLeft">
+    <div class="button-container">
+    <a class="fa fa-camera-retro" href="javascript:alert('Cargando Foto ...');"></a>
+    </div>
+    
+  </div>
+</nav>
+
+<!-- Hidden Sidebar ( accciones/Menu )-->
+<nav class="sidebar black animate-right xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="button black xxxlarge display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="bar-block center">
+    <a href="index.html" class="bar-item button text-grey hover-black" onclick="closeNav()">Home</a>
+    <a href="#Experiencia" class="bar-item button text-grey hover-black" onclick="closeNav()">Experiencia</a>
+    <a href="#Educacion" class="bar-item button text-grey hover-black" onclick="closeNav()">Educacion</a>
+    <a href="#Habilidades" class="bar-item button text-grey hover-black" onclick="closeNav()">Habilidades</a>
+    <a href="#Contacto" class="bar-item button text-grey hover-black" onclick="closeNav()">Contacto</a>
+  </div>
+</nav>
+
+<!-- Principal -->
+<div class="main padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="button top white xxlarge text-grey hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Cebecera -->
+  <header class="container center" style="padding:250px 16px" id="home">
+
+    <h2 class="nombre animate__animated animate__bounceInDown"><b><span style="color: orangered; font-size:74px">Beto</span><span style="color: black; font-size:60px">  Reyes</span> </b></h2>
+    <h4 class="animate__animated animate__fadeInUpBig">Systems Engineer</h4>
+    <div class="container">
+      <p class="animate__animated animate__rollIn"><i class="fa fa-envelope fa-fw margin-right large text-deep-orange"></i>albertoreyes@gmail.com</p>
+      <p class="animate__animated animate__rollIn"><i class="fa fa-phone fa-fw margin-right large text-deep-orange"></i>(55) 55 50 00 45</p>
+    </div>
+    
+    <img src="img/bm.jpg" class="image hide-large hide-small round" style="display:block;width:60%;margin:auto;">
+    <img src="img/bm.jpg" class="image hide-large hide-medium round" width="1000" height="1333">
+
+  </header>
+
+  <!-- Seccion Experiencia -->
+  <div class="padding-32 content" id="Experiencia">
+  
+    <div class="container card white margin-bottom">
+
+      <h2 class="text-deep-orange padding-16"><i class="fa fa-suitcase fa-fw margin-right xxlarge text-deep-orange"></i>Experiencia Laboral</h2>
+
+      <div class="container">
+        <h5 class="opacity"><b>Full Stack Developer</b></h5>
+        <h6 class="text-blue"><i class="fa fa-calendar fa-fw margin-right"></i>Enero 2016 - <span class="tag blue round">Current</span></h6>
+        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla
+        tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+        <hr>
+      </div>
+
+      <div class="container">
+        <h5 class="opacity"><b>Web Developer</b></h5>
+        <h6 class="text-blue"><i class="fa fa-calendar fa-fw margin-right"></i>Abril 2012 - Octubre 2015</h6>
+        <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic.
+        Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+        <hr>
+      </div>
+
+      <div class="container">
+        <h5 class="opacity"><b>Documenter</b></h5>
+        <h6 class="text-blue"><i class="fa fa-calendar fa-fw margin-right"></i>Enero 2000 - Marzo 2012</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eius quaerat sequi reiciendis perspiciatis fuga, nisi
+        repellendus explicabo laborum magnam debitis? Perspiciatis, iure! Perspiciatis veritatis qui nam eum rem. At. </p><br>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Educacion Seccion -->
+  <div class="content justify text-grey padding-32" id="Educacion">
+     
+    <div class="container card white">
+
+      <h2 class="text-deep-orange padding-16"><i class="fa fa-certificate fa-fw margin-right xxlarge text-deep-orange"></i>Educacion</h2>
+
+      <div class="container">
+        <h5 class="opacity"><b>Universidad Carnegie Mellon</b></h5>
+        <h6 class="text-green"><i class="fa fa-calendar fa-fw margin-right"></i>2016-2018</h6>
+        <p>EIS</p>
+        <hr>
+      </div>
+
+      <div class="container">
+        <h5 class="opacity"><b>Universidad Carnegie Mellon</b></h5>
+        <h6 class="text-green"><i class="fa fa-calendar fa-fw margin-right"></i>2013 - 2015</h6>
+        <p>Master Degree</p>
+        <hr>
+      </div>
+
+      <div class="container">
+        <h5 class="opacity"><b>UNAM</b></h5>
+        <h6 class="text-green"><i class="fa fa-calendar fa-fw margin-right"></i>2010 - 2013</h6>
+        <p>Bachelor Degree</p><br>
+      </div>
+
+    </div>      
+ 
+  </div>
+
+  <div class="content justify text-grey padding-32" id="Habilidades">
+
+    <div class="container card white">
+
+      <h3 class="padding-16">Habilidades</h3>
+      <p class="wide fa fa-html5"> HTML</p>
+      <div class="light-grey">
+        <div class="container center padding-small dark-grey" style="width:95%">95%</div>
+      </div>
+
+      <p class="wide fa fa-css3"> CSS</p>
+      <div class="light-grey">
+        <div class="container center padding-small dark-grey" style="width:80%">80%</div>
+      </div>
+
+      <p class="wide"> JS</p>
+      <div class="light-grey">
+        <div class="container center padding-small dark-grey" style="width:60%">60%</div>
+      </div> 
+      <br>
+      <button onclick="javascript:alert('Descargando Archivo ...');" class="button light-grey padding-large section" type="button">
+        <i class="fa fa-download"></i> Descargar
+      </button>
+
+    </div> 
+   
+  </div>
+
+  <!-- Contacto Seccion -->
+  <div class="padding-32 content" id="Contacto" >
+
+    <div class="container card white">  
+
+    <div class="section">
+      <p><i class="fa fa-map-marker fa-fw xlarge margin-right"></i> Cuidad de México</p>
+      <p><i class="fa fa-phone fa-fw xlarge margin-right"></i> Movil: (55) 55 50 00 45</p>
+      <p><i class="fa fa-envelope fa-fw xlarge margin-right"> </i> Email: albertoreyes5@mail.com</p>
+    </div>
+    
+    <p>Enviar Mensaje :</p>
+
+    <form action="" target="_blank">
+
+      <p><input class="input padding-16 border" type="text" placeholder="Nombre" required name="Name"></p>
+      <p><input class="input padding-16 border" type="text" placeholder="Correo" required name="Email"></p>
+      <p><input class="input padding-16 border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="input padding-16 border" type="text" placeholder="Mensaje" required name="Message"></p>
+      <p>
+        <button class="button light-grey padding-large" type="submit">
+          <i class="fa fa-arrow-circle-up"></i> Enviar
+        </button>
+      </p>
+
+    </form>
+
+    </div>
+
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="container padding-64 center opacity xlarge" style="margin:-24px">
+
+    <i class="fa fa-facebook-official hover-opacity"></i>
+    <i class="fa fa-instagram hover-opacity"></i>
+    <i class="fa fa-twitter hover-opacity"></i>
+    <i class="fa fa-linkedin hover-opacity"></i>
+    <p class="medium">Derechos Reservados 2022</p>
+ 
+  </footer>
+  
+<!-- END PAGE PRINCIPAL -->
+</div>
+
+<script>
+// Aciones para Sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
